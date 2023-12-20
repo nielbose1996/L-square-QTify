@@ -1,12 +1,15 @@
 
 import './App.css';
+import React ,{useState} from "react";
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
+  const [searchData,useSeatchData]=useState();
   return (
-    <div className="App">
-         <h1>Hi</h1>
-         <h2>Hello</h2>
-    </div>
+    <>
+    <Navbar searchData={searchData}/>
+    </>
   );
 }
 
