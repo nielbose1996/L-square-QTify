@@ -2,6 +2,7 @@
 import './App.css';
 import React ,{useState} from "react";
 import Navbar from './components/Navbar/Navbar';
+import Hero from "./components/Hero/Hero"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
     <Navbar searchData={searchData}/>
+    <Hero />
     </>
   );
 }
