@@ -39,3 +39,7 @@ p,h1,h2,h3,h4,h5,h6{
 #root,#_next{
   isolation: isolate;
 }
+a,a:hover,a:active,a:focus{
+  text-decoration: none;
+  color:inherit;
+}
