@@ -4,7 +4,7 @@ import styles from "./Section.module.css"
 import { CircularProgress } from "@mui/material";
 import Carousel from "../Carousel/Carousel";
 export default function Section({title,data,type}){
-    const[carouselToggle,setCarouselToggle]=useState(false);
+    const[carouselToggle,setCarouselToggle]=useState(true);
     const handleToggle = () =>{
      setCarouselToggle(   (prevState)=> !prevState);
     }
